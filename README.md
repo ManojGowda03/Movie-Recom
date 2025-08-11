@@ -66,7 +66,14 @@ Feel free to tweak preprocessing steps, try different vectorization methods, or 
 - Incorporate user ratings to personalize recommendations  
 - Add more metadata (e.g., reviews, box office revenue)  
 - Experiment with TF-IDF or word embeddings instead of basic counts  
-- Deploy the app to a cloud service for wider access  
+- Deploy the app to a cloud service for wider access
+
+
+## Author
+
+*Manoj Gowda s*
+GitHub: [@ManojGowda03](https://github.com/ManojGowda03)
+
 
 ## Contributing
 
