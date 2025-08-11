@@ -32,3 +32,48 @@ This project is a content-based movie recommendation engine built with Python. I
 ## Getting Started
 
 1. **Clone this repository**  
+  -git clone https://github.com/ManojGowda03/Movie-Recom.git
+  -cd Movie-Recom
+
+2. **Install dependencies**
+   -pip install streamlit pandas scikit-learn nltk requests
+    
+3. **Download NLTK resources** (if not already installed)
+   -import nltk
+   -nltk.download('wordnet')
+
+4. **TMDB API Key**  
+Sign up at The Movie Database (TMDB) to get an API key, then replace `YOUR_TMDB_API_KEY` in `app.py` with your key.  
+
+## Running the App
+
+Start the Streamlit server:
+streamlit run app.py
+
+A browser window will open. Choose a movie from the dropdown menu and click **Show Recommendations** to see five similar films with their posters.
+
+## Exploring the Notebook
+
+Open `Movies_Recommendation-checkpoint.ipynb` to dive into:
+- Detailed data cleaning procedures  
+- Feature engineering logic  
+- Similarity model construction  
+
+Feel free to tweak preprocessing steps, try different vectorization methods, or combine this with collaborative filtering for a hybrid system.
+
+## Future Enhancements
+
+- Incorporate user ratings to personalize recommendations  
+- Add more metadata (e.g., reviews, box office revenue)  
+- Experiment with TF-IDF or word embeddings instead of basic counts  
+- Deploy the app to a cloud service for wider access  
+
+## Contributing
+
+Contributions are welcome! Fork the repo, create a branch for your feature, commit your changes, and submit a pull request.
+
+---
+
+Enjoy discovering new movies! 
+
+
